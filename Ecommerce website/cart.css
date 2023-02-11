@@ -1,0 +1,54 @@
+i{
+    font-size: 10vh;
+}
+input{
+    width: 8vw;
+}
+.head{
+    text-align: center;
+}
+.grid1{
+    border: 1px solid black;
+    margin:15px;
+    margin-top: 5vh;
+}
+.grid2{
+    margin:15px;
+    border:1px solid black;
+    margin-top: 5vh;
+}
+
+h2{
+    border-bottom:1px solid black;
+    border-collapse: collapse;
+}
+.cost{
+    padding-left: 15vw;
+    padding-right: 0;
+}
+.cost2{
+    padding-left: 13vw;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns:auto auto;
+}
+.grid{
+    display:grid;
+    grid-template-columns:auto auto auto;
+}
+.checkout{
+    margin-left: 6vw;
+}
+@media all and (max-width: 780px) {
+   
+    .grid-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+}
